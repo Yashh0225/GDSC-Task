@@ -1,0 +1,108 @@
+*{
+    background-color: black;
+}
+.container{
+    margin: auto;
+    height: 700px;
+    width: auto ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Brush Script MT", "Comic Sans MS", "Dancing Script", "Pacifico";
+}
+.item{
+    margin: 5px;
+    font-size: 50px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+#write{
+    border-radius: 15px 0 0 0;
+    height:480px;
+    width:32%;
+    background-color: rgb(246, 55, 86);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#mid{
+    height: 490px;
+    width: 32%;
+}
+
+#num{
+    height: 48%;
+    background-color: rgb(255, 226, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#name{
+    font-family: "Brush Script MT", "Comic Sans MS", "Dancing Script", "Pacifico", cursive;
+    height: 48%;
+    background-color: rgb(24, 21, 21);
+    font-size: 50px;
+    color: white;
+    text-shadow:
+        0 0 30px #feeffe, 
+        0 0 40px #fcf1fc, 
+        0 0 50px #faecfa, 
+        0 0 60px #fcf3fc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+        
+}
+
+#hide{
+    border-radius: 0 15px 0 0;
+    height: 480px;
+    width:32%;
+    background-color: rgb(159, 159, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#works{
+    border-radius: 0 0 0 15px;
+    margin-left: 8px;
+    height:200px ;
+    font-size: 80px;
+    width:58%;
+    color: #ffffff;
+    background-color: rgb(49, 255, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ff{
+    border-radius: 0 0 15px 0;
+    height: 200px;
+    width: 39%;
+    background-color: rgb(249, 220, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* addtional features like hover card effect */
+.item:hover{
+    box-shadow: 0 0 15px white;
+    img{
+        size: 1.2;
+        box-shadow: 0 0 5px white;
+    
+    }
+}
+
+
+  
